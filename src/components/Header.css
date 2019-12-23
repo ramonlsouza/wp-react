@@ -1,12 +1,17 @@
 .header{
     padding: 2rem 0;
     font-weight: 400;
-    color: #868797;
     background: #fff;
 }
 .category{
+    text-decoration: none;
+    color: #868797;
     padding: 0 1.5rem;
     font-size: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline;
 }
 .category:first-child{
     padding-left: 0 !important;
@@ -17,7 +22,12 @@
 .category.active{
     color: #0288ca;
 }
+.category:hover, .category:focus {
+    text-decoration: none;
+    outline: none;
+}
 .header-title{
     font-size: 16px;
+    color: #868797;
     float:right;
 }
