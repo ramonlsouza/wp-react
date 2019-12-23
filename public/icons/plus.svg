@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>button-plus</title>
+    <desc>Created with Sketch.</desc>
+    <g id="layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="materials-aurum" transform="translate(-824.000000, -1019.000000)">
+            <g id="button-plus" transform="translate(824.000000, 1019.000000)">
+                <circle id="Oval" stroke="#008FD5" stroke-width="0.891" cx="21.3333333" cy="21.3333333" r="13.8878333"></circle>
+                <circle id="Oval" stroke="#008FD5" stroke-width="0.891" opacity="0.200000003" cx="21.5" cy="21.5" r="21.0545"></circle>
+                <path d="M21.6366413,14 L21.636,20.536 L28.1732825,20.5366413 L28.1732825,21.6366413 L21.636,21.636 L21.6366413,28.1732825 L20.5366413,28.1732825 L20.536,21.636 L14,21.6366413 L14,20.5366413 L20.536,20.536 L20.5366413,14 L21.6366413,14 Z" id="Combined-Shape" fill="#008FD5" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

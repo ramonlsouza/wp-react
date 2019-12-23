@@ -1,0 +1,20 @@
+.header{
+    padding: 2rem 0;
+    font-weight: 400;
+    color: #868797;
+    background: #fff;
+}
+.category{
+    padding: 0 1.5rem;
+    font-size: 20px;
+}
+.category img{
+    padding-right: 0.6rem;
+}
+.category.active{
+    color: #0288ca;
+}
+.header-title{
+    font-size: 16px;
+    float:right;
+}
