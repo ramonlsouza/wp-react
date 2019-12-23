@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import './bootstrap-grid.min.css';
+import './assets/bootstrap-grid.min.css';
 import Header from './components/Header';
 import Cards from './components/Cards';
 

@@ -1,17 +1,18 @@
 .header{
-    padding: 2rem 0;
+    padding-top: 2rem;
     font-weight: 400;
     background: #fff;
 }
 .category{
     text-decoration: none;
     color: #868797;
-    padding: 0 1.5rem;
+    margin: 0 1.5rem;
     font-size: 20px;
     background-color: transparent;
     border: none;
     cursor: pointer;
     display: inline;
+    padding-bottom:2rem;
 }
 .category:first-child{
     padding-left: 0 !important;
@@ -21,6 +22,11 @@
 }
 .category.active{
     color: #0288ca;
+    border-bottom: 3px solid #0288ca;
+}
+.category.active img{
+    /* small hack so there is no need to edit svg files for color change */
+    filter: invert(38%) sepia(57%) saturate(3131%) hue-rotate(176deg) brightness(91%) contrast(98%);
 }
 .category:hover, .category:focus {
     text-decoration: none;
@@ -30,4 +36,7 @@
     font-size: 16px;
     color: #868797;
     float:right;
+}
+#materials-aurum{
+    fill:red;
 }

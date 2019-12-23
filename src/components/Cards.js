@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import  './Cards.css';
+import './../assets/animate.min.css';
 
 class Cards extends Component {
   render() {
@@ -7,7 +8,7 @@ class Cards extends Component {
         <div className="cards">
           <div className="container">
               {(this.props.activeCategory === 'ebook' || this.props.activeCategory === 'all') ? 
-                <div className="card" data-category="ebook">
+                <div className="card animated bounceInUp" data-category="ebook">
                     <div className="item-image">
                         <img alt="item" src="/sample.png"/>
                     </div>
@@ -22,7 +23,7 @@ class Cards extends Component {
                             o crescimento do seu escritório.
                         </p>
 
-                        <a href="#" className="item-link">
+                        <a href="javascript:void(0);" className="item-link">
                             <img alt="item" src="/icons/plus.svg"/> Saiba mais sobre o ebook
                         </a>
                     </div>

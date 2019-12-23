@@ -16,6 +16,7 @@
 .item-content h2{
     font-weight: 300;
     font-size: 28px;
+    color: #1c1e2f;
 }
 .item-link{
     color: #0288ca;
@@ -28,4 +29,5 @@
 }
 .item-excerpt{
     margin-bottom: 2.5rem;
+    color: #585969;
 }
