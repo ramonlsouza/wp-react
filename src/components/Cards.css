@@ -1,0 +1,26 @@
+.cards{
+    margin-top:8rem;
+}
+.card{
+    width: 100%;
+    background: #fff;
+    display:flex;
+}
+.item-image img{
+    margin-top: -3rem;
+}
+.item-content{
+    padding: 3rem 6rem 0;
+}
+.item-link{
+    color: #0288ca;
+    text-decoration: none;
+    line-height: 2.8rem;
+}
+.item-link img{
+    float: left;
+    margin-right: .5rem;
+}
+.item-excerpt{
+    margin-bottom: 2.5rem;
+}
