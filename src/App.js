@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       activeCategory: 'all',
       materials: [],
-      dataRoute: "http://aurum.ramonsouza.com/wp-json/wp/v2/pages"
+      dataRoute: process.env.REACT_APP_WORDPRESS_DATA_ROUTE //defined on .env file
     };
   }
 
