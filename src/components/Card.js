@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import  './Card.css';
+import './Card.css';
 import './../assets/animate.min.css';
 
 class Card extends Component {
@@ -7,7 +7,7 @@ class Card extends Component {
       return(
         <div className="cards">
           <div className="container">
-              {(this.props.activeCategory === this.props.data.category || this.props.activeCategory === 'all') ? 
+              {(this.props.activeCategory === this.props.data.category || this.props.activeCategory === 'all') ?
                 <div className="card animated bounceInUp" data-category={this.props.data.category}>
                     <div className="item-image">
                         <img alt="item" src={this.props.data.image}/>

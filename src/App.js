@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       activeCategory: 'all',
       materials: [],
-      dataRoute:  "http://aurum.ramonsouza.com/wp-json/wp/v2/pages"
+      dataRoute: "http://aurum.ramonsouza.com/wp-json/wp/v2/pages"
     };
   }
 
