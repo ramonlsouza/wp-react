@@ -2,6 +2,7 @@
     padding-top: 2rem;
     font-weight: 400;
     background: #fff;
+    text-align: center;
 }
 .category{
     text-decoration: none;
@@ -39,4 +40,34 @@
 }
 #materials-aurum{
     fill:red;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 1199px){
+    .header-title{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .container {
+        max-width: 900px;
+    }
+    .category{
+        font-size: 15px;
+        margin: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .category{
+        padding-bottom: 1rem;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
 }

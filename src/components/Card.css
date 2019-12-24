@@ -32,3 +32,34 @@
     color: #585969;
     display: block;
 }
+
+@media only screen and (max-width: 900px){
+    .item-content {
+        padding: 2rem 2rem 0;
+        font-size: 16px;
+        flex-grow: 2;
+    }
+    .item-image{
+        display:flex;
+        flex-direction:column;
+        align-items:flex-end;
+        flex:1;        
+    }
+}
+
+@media only screen and (max-width: 655px){
+    .card{
+        display: block;
+    }
+    .item-image{
+        margin-bottom: -45%;
+    }
+    .item-image img{
+        width: 100%;
+    }
+    .item-content{
+        padding: 2rem 2rem 0;
+        background: #fff;
+        position: relative;
+    }
+}
