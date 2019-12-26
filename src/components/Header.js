@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Twemoji from 'react-twemoji';
 import  './Header.css';
 
 class Header extends Component {
@@ -6,7 +7,11 @@ class Header extends Component {
       return(
         <div className="header">
           <div className="container">
-            <span className="header-title">Materiais gratuitos <span role="img" aria-label="smiley face emoji">😀</span></span>
+            <span className="header-title">Materiais gratuitos 
+              <Twemoji options={{ className: 'twemoji' }}>
+                <span aria-label="smiley face emoji" role="img">😀</span>
+              </Twemoji>
+            </span>
 
             <button onClick={() => this.props.handleFilter('all')} className={"category " + (this.props.activeCategory === 'all' ? 'active' : '')}><img src="/icons/stack.svg" alt="stack icon" /> Todos</button> 
             <button onClick={() => this.props.handleFilter('o_e-book')} className={"category " + (this.props.activeCategory === 'o_e-book' ? 'active' : '')}><img src="/icons/book.svg" alt="book icon" /> E-books</button> 

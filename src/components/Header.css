@@ -4,6 +4,14 @@
     background: #fff;
     text-align: center;
 }
+.twemoji{
+    width: 21px;
+    height: 22px;
+}
+.header-title div{
+    display: inline;
+    padding-left: 5px;
+}
 .category{
     text-decoration: none;
     color: #868797;
