@@ -21,7 +21,7 @@ run the following commands on terminal:<br/>
 `cp .env.example .env`<br/>
 `nano .env`<br/>
 
-change WordPress API URL on file (running example on: http://3.226.36.40/)<br/>
+change WordPress API URL on file (running example on: http://3.226.36.40/wp-json/wp/v2/pages)<br/>
 press: ctrl+X, Y, enter (save and close)
 
 run the following command on terminal:<br/>
@@ -38,7 +38,7 @@ run the following commands on terminal:<br/>
 `copy .env.example .env`<br/>
 `notepad .env`<br/>
 
-change WordPress API URL on file (running example on: http://3.226.36.40/)<br/>
+change WordPress API URL on file (running example on: http://3.226.36.40/wp-json/wp/v2/pages)<br/>
 save file and close
 
 run the following command on terminal:<br/>
